@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Zoom from 'react-reveal/Zoom';
 
 export class Blog extends Component {
     render() {
         return (
             <div className="motion-safe:animate-fadeIn text-blue-900 mx-8 py-16">
                 <div className="flex flex-col md:grid md:grid-cols-2 gap-8 ">
-
                     <div className="order-last md:order-first my-auto">
                         <div className="py-2">
                             <div className="text-2xl font-bold">
@@ -24,9 +24,11 @@ export class Blog extends Component {
                                 </div>
                         </div>
                     </div>
-                    <div className="my-auto" >
-                        <img className="shadow-2xl rounded-md" src={process.env.PUBLIC_URL + '/images/blog2.png'}></img>
-                    </div>
+                    <Zoom>
+                        <div className="my-auto" >
+                            <img className="shadow-2xl rounded-md" src={process.env.PUBLIC_URL + '/images/blog2.png'}></img>
+                        </div>
+                    </Zoom>
                 </div>
             </div>
         )
