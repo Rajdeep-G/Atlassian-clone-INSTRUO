@@ -11,7 +11,11 @@
 
 ### Lighthouse Stats
 
-![img](LighthouseStats/overall.png)
+![img1](./LighthouseStats/metric1.png)
+![img2](./LighthouseStats/metric2.png)
+![img3](./LighthouseStats/metric3.png)
+![img1](./LighthouseStats/pwa1.png)
+![img1](./LighthouseStats/pwa2.png)
 
 ### Instructions
 
