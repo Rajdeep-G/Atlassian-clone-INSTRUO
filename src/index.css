@@ -1,0 +1,44 @@
+.streamline {
+    background-color: #172B4D
+}
+
+.greyish-bg {
+    background-color: #F4F5F7;
+}
+
+.nav-up{
+    transform: rotate(0deg);
+    transition: transform 0.3s linear;
+}
+
+.nav-down{
+    transform: rotate(180deg);
+    transition: transform 0.3s linear;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .streamline {
+        background-image: url("https://wac-cdn.atlassian.com/dam/jcr:e1b033e1-4d7d-46a3-995c-2a55731e800b/automation-banner-L%20768.svg?cdnVersion=1283"), url("https://wac-cdn.atlassian.com/dam/jcr:43f0949b-f655-4d01-bc18-258b25c74912/automation-banner-R%20768.svg?cdnVersion=1283");
+        background-position: left center, right center;
+        background-repeat: no-repeat, no-repeat;
+        background-size: auto 100%, auto 100%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .streamline  {
+        background-image: url("https://wac-cdn.atlassian.com/dam/jcr:efd533a9-0494-4b71-9c49-425525a7da97/automation-banner-L%201024.svg?cdnVersion=1283"), url("https://wac-cdn.atlassian.com/dam/jcr:fda286e4-106a-4c37-a80e-08818adad41d/automation-banner-R%201024.svg?cdnVersion=1283");
+        background-position: left center, right center;
+        background-repeat: no-repeat, no-repeat;
+        background-size: auto 100%, auto 100%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .streamline  {
+        background-image: url("https://wac-cdn.atlassian.com/dam/jcr:4598ed32-5d28-4506-92d2-0a815556e2e4/automation-banner-L.svg?cdnVersion=1283"), url("https://wac-cdn.atlassian.com/dam/jcr:6bfbb10d-d747-40dc-8f31-28383f896f33/automation-banner-R.svg?cdnVersion=1283");
+        background-position: left center, right center;
+        background-repeat: no-repeat, no-repeat;
+        background-size: auto 100%, auto 100%;
+    }
+}
