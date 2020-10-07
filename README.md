@@ -28,5 +28,3 @@
 ```npm run start```
 
 <hr>
-
-Thanks to [@arnabsen1729](https://github.com/arnabsen1729) and [@berakirshnendu36](https://github.com/berakirshnendu36) for their contributions
