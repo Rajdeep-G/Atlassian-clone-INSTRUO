@@ -21,14 +21,14 @@
 
 1. Clone the repository
 
-```git clone https://github.com/Rajdeep-G/Atlassian-clone-INSTRUO.git```
+    ```git clone https://github.com/Rajdeep-G/Atlassian-clone-INSTRUO.git```
 
 2. Install NPM packages
 
-```npm i```
+    ```npm i```
 
 3. Start the app
 
-```npm run start```
+    ```npm run start```
 
 <hr>
