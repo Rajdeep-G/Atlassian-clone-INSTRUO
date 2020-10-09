@@ -11,7 +11,7 @@ export class Blog extends Component {
                             <img className="shadow-2xl rounded-md" src={process.env.PUBLIC_URL + '/images/blog.png'}></img>
                         </div>
                     </Zoom>
-                    <div className="my-auto">
+                    <div className="my-auto lg:mr-32 lg:ml-12">
                         <div className="py-2">
                             <div className="text-2xl font-bold">
                                 Plan
