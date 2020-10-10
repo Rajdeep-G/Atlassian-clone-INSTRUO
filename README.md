@@ -2,7 +2,7 @@
 
 **Cloning https://www.atlassian.com/software/jira**
 
-**My Website: https://atlassian-clone-instruo.herokuapp.com/**
+**My Website: https://atlassian-clone-instruo.netlify.app/**
 
 ### Built Using
 1. React
